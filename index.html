@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Pug Litter</title>
@@ -37,19 +39,52 @@
       height: auto;
       border-radius: 8px;
       object-fit: cover;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    }
+    
     footer {
       background: #f8f8f8;
       text-align: center;
       padding: 1rem;
       font-size: 0.9rem;
     }
+    
+    .about-photo {
+    display: block;
+    max-width: 600px;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid #f8c8dc;
+    margin: 1.5rem auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      line-height: 1.6;
+      background: linear-gradient(to bottom right, #fffaf0, #fce4ec);
+    }
+
+    header h1, h2 {
+  font-family: 'Fredoka', sans-serif;
+}
+
   </style>
 </head>
 <body>
+
+ 
+  
   <header>
     <h1>Our Adorable Pug Litter</h1>
-    <p>Ready to find their forever homes!</p>
+    <p>Ready to find their forever homes starting June 20th!</p>
   </header>
 
   <section id="about">
@@ -69,7 +104,7 @@
       <br>
       There are 5 male and 2 female. I will be holding on to the little black male for 6
       months because it is too sad to see everyone leave - for the puppy parents and for us.
-      Winston and Lulu’s other puppies will be ready to go to their forever homes on June 20th .</p>
+    </p>
   </section>
 
   <section id="gallery">
